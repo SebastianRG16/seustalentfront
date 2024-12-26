@@ -66,6 +66,10 @@
                 class="w-full text-[#023D6A] text-[13px] px-3 py-2 border bg-[#F2F2F2] border-[#E4E4E499] rounded-md focus:outline-none "
                 name="" id="">
                 <option class="" value="" disabled selected>Selecciona</option>
+                <option class="" value="Villavicencio">Villavicencio</option>
+                <option class="" value="Bogota">Bogota</option>
+                <option class="" value="Armenia">Armenia</option>
+                <option class="" value="Medellin">Medellin</option>
               </select>
             </div>
             <div class="sm:mb-4">
