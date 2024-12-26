@@ -286,7 +286,7 @@ export default {
           skills: this.skills,
           userId: 1,
         };
-        const response = await axios.post('http://localhost:3000/generalinformation', payload);
+        const response = await axios.post('https://seustalentback.onrender.com/generalinformation', payload);
         console.log('Respuesta de la API:', response.data);
         alert('Datos enviados con éxito');
       } catch (error) {

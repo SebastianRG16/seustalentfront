@@ -106,7 +106,7 @@ export default {
     methods: {
         async fecthExperience() {
             try {
-                const response = await axios.get(`http://localhost:3000/workexperience/${this.userId}`);
+                const response = await axios.get(`https://seustalentback.onrender.com/workexperience/${this.userId}`);
                 this.experience = response.data.works
             } catch (error) {
                 console.error('Error al recibir los datos:', error);

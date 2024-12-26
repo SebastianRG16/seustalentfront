@@ -91,7 +91,7 @@ export default {
     methods: {
         async fecthExperienceKills() {
             try {
-                const response = await axios.get(`http://localhost:3000/generalinformation/${this.userId}`);
+                const response = await axios.get(`https://seustalentback.onrender.com/generalinformation/${this.userId}`);
                 this.experience = response.data.supplementaryData
                 console.log(this.experience)
             } catch (error) {

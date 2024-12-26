@@ -263,7 +263,7 @@ export default {
             await this.$refs.academicFormationData.fecthFormation();
             await this.$refs.experienceWorkData.fecthExperience();
             await this.$refs.premioLogrosData.fecthExperienceKills();
-            const response = await axios.get(`http://localhost:3000/generalinformation/${this.userId}`);
+            const response = await axios.get(`https://seustalentback.onrender.com/generalinformation/${this.userId}`);
             this.generalInformation = response.data;
         },
     },

@@ -187,7 +187,7 @@ export default {
                     informationWork: this.informationWork,
                     userId: 1,
                 };
-                const response = await axios.post('http://localhost:3000/workexperience', payload);
+                const response = await axios.post('https://seustalentback.onrender.com/workexperience', payload);
                 console.log('Respuesta de la API:', response.data);
                 alert('Datos enviados con éxito');
             } catch (error) {

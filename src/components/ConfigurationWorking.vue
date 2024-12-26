@@ -341,7 +341,7 @@ export default {
                     cultures: this.culturesInformation,
                     userId: 1,
                 };
-                const response = await axios.post('http://localhost:3000/tipeworkin', payload);
+                const response = await axios.post('https://seustalentback.onrender.com/tipeworkin', payload);
                 console.log('Respuesta de la API:', response.data);
             } catch (error) {
                 console.error('Error al enviar los datos:', error);

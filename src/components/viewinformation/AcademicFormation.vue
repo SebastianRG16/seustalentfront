@@ -102,7 +102,7 @@ export default {
     methods: {
         async fecthFormation() {
             try {
-                const response = await axios.get(`http://localhost:3000/academicformation/${this.userId}`);
+                const response = await axios.get(`https://seustalentback.onrender.com/academicformation/${this.userId}`);
                 console.log(response.data)
                 this.formation = response.data.formation
             } catch (error) {

@@ -253,7 +253,7 @@ export default {
     methods: {
         async fetchData() {
             try {
-                const response = await axios.get(`http://localhost:3000/tipeworkin/${this.userId}`);
+                const response = await axios.get(`https://seustalentback.onrender.com/tipeworkin/${this.userId}`);
                 if (response.data[0].workShops.length != 0) {
                     this.workShopInformation = this.workShops.filter(workShop =>
                         response.data[0].workShops.some(data => data.title === workShop.title)
